@@ -1,0 +1,549 @@
+@import variables
+
+body
+    margin: 0
+    width: 100%
+    background-color: #e8e8e8
+img
+    max-width: 100%
+
+main
+    overflow: hidden
+
+.section-title
+    margin: 0
+    font-family: GothamM,serif
+    text-align: center
+    margin-bottom: 115px
+    font-size: 37px
+    text-transform: uppercase
+    position: relative
+    z-index: 10
+    color: $bgDark
+    &::before
+        content: 'B'
+        position: absolute
+        width: 100%
+        font-family: RobotoBold
+        font-size: 247px
+        color: $bgDark
+        opacity: .18
+        top: 50%
+        z-index: -1
+        transform: translateY(-50%)
+        left: 0 
+        text-align: center
+        display: block
+.section-subtitle
+    text-align: center
+    font-family: Myriad
+    color: $bgDark
+    font-size: 30px
+    margin-bottom: 70px
+
+=gothamBook()
+    font-family: GothamBook
+    font-size: 15px
+    color: $white
+    line-height: 24px
+
+header
+    position: absolute
+    z-index: 500
+    width: 100%
+    
+.logo
+    display: flex
+    justify-content: space-between
+    align-items: center
+    &__img
+        display: inline-block
+        margin: 22px 0px
+    &__button
+        background-color: transparent
+        width: 40px
+        height: 30px
+        float: right
+        display: none
+        border: none
+        cursor: pointer
+        border-bottom: 5px solid $originalBlue
+        border-top: 5px solid $originalBlue
+        border-left: 0px solid transparent
+        border-right: 0px solid transparent
+        justify-content: center
+        align-items: center
+        transition: .2s
+        position: relative
+        z-index: 999
+        &::before
+            content: ''
+            position: absolute
+            width: 100%
+            height: 5px
+            background-color: $originalBlue
+            transition: .2s
+        &::after
+            content: ''
+            position: absolute
+            width: 100%
+            height: 5px
+            background-color: $originalBlue
+            transition: .2s
+        &_active
+            height: 40px
+            border: 4px solid $originalBlue
+            border-radius: 50%
+            &::after
+                transform: rotate(45deg)
+                width: 80%
+                height: 4px
+            &::before
+                transform: rotate(-45deg)
+                width: 80%
+                height: 4px
+        &:focus
+            outline: none
+
+.header
+    border-bottom: 1px solid rgba(255,255,255,.38)
+
+.header__menu
+    display: flex
+    justify-content: flex-end
+    height: 100%
+    ul
+        display: flex
+        list-style-type: none
+        font-size: 14px
+        margin: 0
+        padding: 0
+        width: 100%
+        height: 100%
+        justify-content: space-between
+        li
+            font-size: 20px
+            display: flex
+            a
+                color: $white
+                text-decoration: none
+                font-family: Myriad,sans-serif
+                width: 100%
+                height: 100%
+                display: flex
+                align-items: center
+                box-sizing: border-box
+                border-bottom: 6px solid transparent
+                i
+                    margin-left: 5px
+            a:hover
+                border-bottom: 6px solid $originalBlue
+
+
+.main
+    flex-direction: column
+    justify-content: center
+    align-items: center 
+    background: $main_bg_color url(../img/main_bg.jpg) no-repeat center top
+    background-size: cover
+    text-align: center
+    text-transform: uppercase
+    padding: 390px 0px 110px 0px
+    &__title
+        font-family: GothamB,serif
+        color: $white
+        font-size: 152px
+        margin: 0
+        padding: 0
+    &__subtitle
+        font-size: 24px
+        font-family: GothamM,serif
+        color: $originalBlue
+        letter-spacing: 20px
+        margin-bottom: 115px
+        padding-left: 20px
+
+.features-block
+    background-color: $originalBlue
+    margin: 0
+    padding: 170px 0px 130px 0px
+    color: $white
+    .section-title
+        color: $white   
+        &::before
+            content: 'W'
+            color: $lightBlue
+            opacity: 1
+
+.feature
+    text-align: center
+    font-family: GothamBook,sans-serif
+    &__icon
+        height: 110px
+        width: 110px
+        background-color: $lightBlue
+        border-radius: 50%
+        display: inline-block
+        img
+            vertical-align: middle
+            margin-top: 50%
+            transform: translateY(-50%)
+    &__title
+        font-family: GothamM, serif
+        font-size: 18px
+        text-transform: uppercase
+        margin-top: 20px
+        margin-bottom: 35px
+    &__text
+        gothamBook()
+
+
+.scroll
+    text-align: center
+    color: $white
+    top: 0
+    width: 100%
+    &__text
+        font-family: OpenS,serif
+        font-size: 13px
+    &__arrow
+        button
+            background: transparent
+            width: 65px
+            height: 65px
+            border: 1px solid $white
+            border-radius: 50%
+            cursor: pointer
+            &:focus
+                outline: none
+            i 
+                font-size: 20px
+                color: $white
+
+    
+.news
+    article
+        padding-top: 80px
+        padding-bottom: 115px
+    &>article:nth-child(odd)
+        background: $bgDark
+        background-size: 50% auto
+        color: $white
+        position: relative
+        &::after
+            content: ''
+            position: absolute
+            background-image: url(../img/news1.jpg)
+            background-repeat: no-repeat
+            background-size: cover
+            background-position: center
+            width: 50%
+            height: 100%
+            right: 0
+            top: 0
+    &>article:nth-child(even)
+        background-size: 50% auto
+        color: $bgDark
+        position: relative
+        background: $white
+        &::after
+            content: ''
+            position: absolute
+            background-image: url(../img/news2.jpg)
+            background-repeat: no-repeat
+            background-size: cover
+            background-position: center
+            width: 50%
+            height: 100%
+            left: 0
+            top: 0
+    &-content
+        &-date
+            font-family: GothamBook
+            font-size: 13px
+            margin-bottom: 20px
+        &-title
+            font-family: GothamM
+            font-size: 25px
+            text-transform: uppercase
+            margin-bottom: 40px
+        &-text
+            font-family: GothamBook
+            font-size: 15px
+            line-height: 24px
+            margin-bottom: 35px
+.blog
+    padding-top: 160px
+    padding-bottom: 110px
+    &-block
+        text-align: center
+        &-img
+            margin-bottom: 45px
+        &-title
+            color: $originalBlue
+            font-family: GothamM
+            font-size: 17px
+            text-transform: uppercase
+            margin-bottom: 30px
+        &-text
+            font-family: Myriad
+            font-size: 15px
+            line-height: 24px
+.write-block
+    background-color: $originalBlue
+    padding-top: 110px
+    padding-bottom: 150px
+    +gothamBook()
+    &-content
+        display: flex
+        &-img
+            width: 69px
+            min-width: 69px
+            height: 69px
+            margin-right: 20px
+        &-text
+            margin-left: 20
+            margin: 0
+.skills
+    background: $bgDark url(../img/bg1.jpg) no-repeat center 
+    background-size: cover
+    padding-top: 225px
+    padding-bottom: 240px
+    color: $white
+    font-family: GothamM
+    &-content
+        &-title
+            margin-bottom: 40px
+            font-size: 25px
+            text-transform: uppercase
+        &-text
+            +gothamBook()
+            margin-bottom: 70px
+        &-item
+            font-size: 15px
+            text-transform: uppercase
+            background-color: $originalBlue
+            padding: 13px 20px
+            margin-bottom: 24px
+            &:nth-child(1)
+                width: 370px
+            &:nth-child(2)
+                width: 400px
+            &:nth-child(3)
+                width: 430px
+    &-img
+        width: 100%
+        height: 100%
+        text-align: center
+.team
+    padding-top: 140px
+    padding-bottom: 125px
+    text-align: center
+    .section-title
+        &::before
+            content: 'T'
+    &-person
+        position: relative
+        &-img
+            .team-person-name
+                background-color: #fff
+                position: absolute
+                width: 80%
+                transform: translate(-50%, -50%)
+                font-family: GothamM
+                margin-left: 50%
+                padding: 24px
+                .name
+                    font-size: 20px
+                    color: $originalBlue
+                .post
+                    font-size: 15px
+.call-to-action
+    background-image: url(../img/bg2.jpg)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    padding-top: 220px
+    padding-bottom: 100px
+    .section-title
+        color: #ffffff
+        margin-bottom: 150px
+        &::before
+            content: 'C'
+            color: rgba(255,255,255,1.8)
+    .send-letter
+        text-align: center
+    .contacts
+        display: flex
+        justify-content: space-between
+        margin-bottom: 35px
+        input
+            font-size: 15px
+            font-family: GothamBook
+            width: 30%
+            border: 1px solid #fff
+            background: transparent 
+            padding: 15px
+            color: #ffffff
+            &:focus
+                outline: none
+            &::placeholder
+                font-family: GothamBook
+                color: #ffffff
+    textarea
+        font-size: 15px
+        border: 1px solid #fff
+        background: transparent
+        resize: none
+        color: #ffffff
+        padding: 15px
+        width: 100%
+        margin-bottom: 40px
+        font-family: GothamBook
+        &:focus      
+            outline: none
+        &::placeholder
+            font-family: GothamBook
+            color: #ffffff
+    .cta-button
+        font-family: GothamM
+        font-size: 24px
+        color: #ffffff
+        border: none
+        background-color: $originalBlue
+        text-transform: uppercase       
+        padding: 20px 70px
+        &:focus
+            outline: none
+.team
+    &-person
+        margin-bottom: 100px
+
+
+
+
+@media (max-width: 991px)
+    header
+        position: fixed
+        background-color: rgba(0,0,0,.5)
+
+    .logo
+        &__img
+            margin: 5px 0px 0px 0px
+            max-width: 50px
+        &__button
+            display: flex
+
+    .menu-wrap
+        position: inherit
+
+    .menu
+        display: none
+        &_fullscreen
+            background-color: rgba(0,0,0,.97)
+            width: 100vw
+            height: 100vh
+            position: fixed
+            display: flex
+            left: 0
+            top: 0
+            align-items: center
+        ul
+            height: auto
+            flex-direction: column
+            justify-content: flex-start
+            li
+                justify-content: center
+                font-size: 25px
+                a
+                    display: block
+                    width: auto
+                    padding: 10px
+                    i
+                        margin: 5px
+
+
+    .main
+        padding: 200px 0px 100px 0px
+        &__title
+            font-family: GothamB,serif
+            font-size: 112px
+        &__subtitle
+            font-size: 18px
+            letter-spacing: 15px
+            padding-left: 15px
+    .call-to-action
+        .contacts
+            flex-direction: column
+            input
+                width: 100%
+                margin-bottom: 20px
+    .news
+        &-content
+            &-text:last-child
+                padding-bottom: 50%
+        &>article:nth-child(odd)
+            &::after
+                width: 100%
+                height: 50%
+                top: auto
+                right: 0
+                bottom: 0
+        &>article:nth-child(even)
+            &::after
+                width: 100%
+                height: 50%
+                top: auto
+                right: 0
+                bottom: 0
+    .blog
+        &-block
+            margin-bottom: 100px
+    .write-block
+        &-content
+            margin-top: 50px
+    .skills
+
+        &-content
+            &-item
+                &:nth-child(1)
+                    width: 270px
+                &:nth-child(2)
+                    width: 300px
+                &:nth-child(3)
+                    width: 330px
+
+
+
+    
+
+
+.feature
+    margin-bottom: 50px
+
+@media (max-width: 767px)
+    .news
+        &-content
+            &-text:last-child
+                padding-bottom: 60%
+    .main
+        &__title
+            font-size: 80px
+        &__subtitle
+            font-size: 14px
+            letter-spacing: 10px
+            padding-left: 10px
+                    
+
+@media (max-width: 575px)
+    .news
+        &-content
+            &-text:last-child
+                padding-bottom: 110%
+    .main
+        &__title
+            font-size: 55px
+        &__subtitle
+            font-size: 10px
+            letter-spacing: 6px
+            padding-left: 6px
