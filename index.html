@@ -6,16 +6,46 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title></title>
-    <!-- <link href="src/css/bootstrap-grid.min.css" rel="stylesheet"> -->
-    <link href="src/css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
 
   <body>
-    <h3>Скоро здесь появится что-нибудь красивое и примеры моих работ...</h3>
-    <p>А пока только один <a href="src/works/index.html">пример работы</a></p>
-    
-    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script>window.jQuery || document.write('<script src="src/js/jquery-3.2.1.min.js"><\/script>')</script> -->
-    <!-- <script src="src/js/script.js" defer=""></script> -->
+    <aside class="menu">
+      <div class="menu__userbar userbar">
+        <div class="userbar__avatar"></div>
+        <h1 class="userbar__name">Abrakso</h1>
+        <p class="userbar__works"></p>
+        <button class="userbar__button button">Upload</button>
+      </div>
+      <div class="categories">
+        <p class="categories__title">categories</p>
+        <ul class="categories__list list">
+          <li class="list__item item"><button class="item__button">Landing Page</button></li>
+          <li class="list__item item"><button class="item__button">Multi Page</button></li>
+          <li class="list__item item"><button class="item__button">Shop</button></li>
+        </ul>
+      </div>
+    </aside>
+    <main class="main">
+      <section class="main__landing-pages type">
+        <h2 class="type__title">Landing Page <span class="type__count"></span></h2>
+        <div class="type__content content">
+          <div class="content__element element">
+            <a href="creatives/index.html"><img src="img/works/creatives.jpg" alt="Creatives"></a>
+          </div>
+          
+        </div>
+      </section>
+      <!-- <section class="main__multi-pasges type">
+        <h2 class="type__title">Multi Page</h2>
+
+      </section>
+      <section class="main__shops type">
+        <h2 class="type__title">Shop</h2>
+
+      </section> -->
+    </main>
+    <script src="js/libs.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
