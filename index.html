@@ -5,17 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title></title>
+    <title>Abrakso</title>
     <link href="css/style.css" rel="stylesheet">
   </head>
 
   <body>
+    <!-- <button class="menu_btn"></button> -->
     <aside class="menu">
       <div class="menu__userbar userbar">
         <div class="userbar__avatar"></div>
-        <h1 class="userbar__name">Abrakso</h1>
-        <p class="userbar__works"></p>
-        <button class="userbar__button button">Upload</button>
+        <div class="userbar__info info">
+          <h1 class="info__name">Abrakso</h1>
+          <p class="info__works"></p>
+        </div>
+        <!-- <button class="userbar__button button">Upload</button> -->
       </div>
       <div class="categories">
         <p class="categories__title">categories</p>
@@ -25,6 +28,7 @@
           <li class="list__item item"><button class="item__button">Shop</button></li>
         </ul>
       </div>
+      <button class="menu_button"></button>
     </aside>
     <main class="main">
       <section class="main__landing-pages type">
@@ -32,18 +36,22 @@
         <div class="type__content content">
           <div class="content__element element">
             <a href="creatives/index.html"><img src="img/works/creatives.jpg" alt="Creatives"></a>
+            <p class="element__name">creatives</p>
           </div>
+        </div>
+      </section>
+      <section class="main__multi-pasges type">
+        <h2 class="type__title">Multi Page <span class="type__count"></span></h2>
+        <div class="type__content content">
           
         </div>
       </section>
-      <!-- <section class="main__multi-pasges type">
-        <h2 class="type__title">Multi Page</h2>
-
-      </section>
       <section class="main__shops type">
-        <h2 class="type__title">Shop</h2>
-
-      </section> -->
+        <h2 class="type__title">Shop <span class="type__count"></span></h2>
+        <div class="type__content content">
+          
+        </div>
+      </section>
     </main>
     <script src="js/libs.min.js"></script>
     <script src="js/script.js"></script>
