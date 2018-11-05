@@ -1,0 +1,53 @@
+.repair{
+	background-color: #2e2e2e;
+	position: relative;
+	z-index: 0;
+	/*padding: 150px 0px;*/
+}
+
+.repair::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: block;
+	z-index: -1;
+	background-image: url(../img/repair-bg.png);
+	background-repeat: none;
+	background-position: center ;
+	background-size: cover;
+	opacity: .1;
+}
+.repair .title{
+	margin-top: 150px;
+}
+.repair .text-white{
+	padding-right: 200px;
+	margin-top: 50px;
+	margin-bottom: 150px;
+}
+
+.goodBoy{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-image: url(../img/goodboy.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.man-bg{
+	position: absolute;
+	top: -170px;
+	border: 1px solid red;
+
+}
+
+.workerlogo{
+	background-image: url(../img/worker-icon.png);
+}

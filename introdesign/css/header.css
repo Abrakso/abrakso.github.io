@@ -1,0 +1,39 @@
+
+header{
+ 	position: absolute;
+ 	z-index: 999;
+ 	width: 100%;
+}
+
+.hedaer-name{
+  	text-align: center;
+  	font-size: 10px;
+  	text-transform: uppercase;
+}
+
+.header-contacts{
+  	display: flex;
+  	justify-content: flex-end;
+}
+
+.contact{
+	display:flex;
+	flex-direction: column;
+	align-self: flex-end;
+	margin-right: 10px;
+}
+
+.contact p{
+	text-align: right;
+  	margin: 0;
+  	margin-bottom: 10px;
+}
+
+.header-phone{
+  	font-size: 16px;
+}
+
+.header-workDay{
+  	font-size: 10px;
+	color: rgba(255,255,255,.3);
+}

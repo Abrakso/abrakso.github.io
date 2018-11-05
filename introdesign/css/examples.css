@@ -1,0 +1,120 @@
+.portfolio{
+	position: relative;
+	padding: 100px 0px;
+}
+
+.portfolio::before{
+	content: '';
+	background-image: url(../img/shumbg.png);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.block2{
+	/*height: 100vh;*/
+	/*padding:100px;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.row2{
+	display: flex;
+}
+
+.slider-block2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.slider-wrap2{
+	position: relative;
+	align-items: center;
+}
+
+#slider-img2{
+	width: 1200px;
+	height: 600px;
+	position: relative;
+}
+
+#slider-items2{
+	display: flex;
+	position: absolute;
+	transition: .5s;
+	left: 0px;
+	align-items: center;
+}
+
+.navigation2{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 5rem 10rem 0rem 10rem;
+}
+
+.portfolio .title{
+	margin-bottom: 70px;
+	text-align: center;
+}
+
+#arrow-left2, #arrow-right2{
+	cursor: pointer;
+}
+
+#arrow-left2::before{
+	content: '';
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	left: -4rem;
+	transform: rotate(45deg);
+	border-left: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+#arrow-right2::after{
+	content: '';
+
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	right: -3rem;
+	transform: rotate(-45deg);
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.slide-active{
+	width: 1000px;
+	height: 600px;
+	margin: 0px 100px;
+	transition: .5s;
+}
+
+.slide-noactive{
+	width: 570px;
+	height: 396px;
+	transition: .5s;
+	position: relative;
+	z-index: 0;
+}
+
+.slide-noactive::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: block;
+	z-index: -1;
+	background-color: #000;
+	opacity: .05;
+}

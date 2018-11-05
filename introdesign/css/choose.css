@@ -1,0 +1,104 @@
+.choose{
+	position: relative;
+	padding-bottom: 100px;
+}
+
+.choose::before{
+	content: '';
+	background-image: url(../img/shumbg.png);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.choose-block{
+	position: relative;
+}
+
+.choose-papper{
+	width: 552px;
+	height: 374px;
+	background-image: url(../img/Design.png);
+	background-size: cover;
+	margin-left: -200px;
+	margin-top: 190px;
+	position: absolute;
+}
+
+.choose-papper::before{
+	content: '';
+	width: 207px;
+	height: 159px;
+	background-image: url(../img/Pencil-cup.png);
+	background-size: cover;
+	position: absolute;
+	right: -70px;
+	top: -204px;
+}
+
+.choose-papper::after{
+	content: '';
+	width: 80px;
+	height: 218px;
+	background-image: url(../img/Little-black-pencil.png);
+	background-size: cover;
+	position: absolute;
+	right: -110px;
+	top: 20px;
+}
+
+
+.choose-papper-s{
+	width: 224px;
+	height: 224px;
+	background-image: url(../img/Square.png);
+	background-size: cover;
+	position: absolute;
+	right: -95px;
+	bottom: -85px;
+	z-index: -1;
+	
+}
+
+.plant{
+	width: 212px;
+	height: 209px;
+	position: absolute;
+	background-image: url(../img/plant.png);
+	background-size: cover;
+	left: -190px;
+	top: -185px;
+}
+
+.piramid{
+	width: 88px;
+	height: 89px;
+	position: absolute;
+	background-image: url(../img/Piramid.png);
+	background-size: cover;
+	left: -150px;
+	top: 70px;
+}
+
+.pencil-cup2{
+	width: 183px;
+	height: 211px;
+	position: absolute;
+	background-image: url(../img/Pencil-cup2.png);
+	background-size: cover;
+	left: -190px;
+	bottom: -110px;
+}
+
+.choose-text-information{
+	padding: 100px 0px;
+}
+
+.choose-text{
+	font-size: 14px;
+	line-height: 25px;
+	color: rgba(255,255,255,.5);
+}

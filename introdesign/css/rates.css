@@ -1,0 +1,45 @@
+.rates{
+	background-color: #2f2f2f;
+	position: relative;
+	z-index: 0;
+	padding: 80px 0px 100px 0px;
+}
+
+.rates::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: block;
+	z-index: -1;
+	background-image: url(../img/rates-bg.png);
+	background-repeat: none;
+	background-position: center;
+	background-size: cover;
+	opacity: .8;
+}
+
+.rates .title{
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.rate{
+	padding-left: 50px;
+}
+
+.rates ul{
+	margin: 0;
+	padding: 0;
+	list-style-image: url(../img/list-style.png);
+	list-style-position: outside;
+	padding-left: 15px;
+	margin-top: 40px;
+}
+
+.rates li{
+	line-height: 30px;
+	padding-left: 10px;
+}

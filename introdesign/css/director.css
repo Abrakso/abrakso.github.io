@@ -1,0 +1,47 @@
+.director{
+	margin-top: 150px;
+}
+
+.director-biography{
+	padding-left: 140px;
+	color: rgba(255,255,255,.5);
+	font-size: 14px;
+	line-height: 22px;
+	margin-bottom: 100px;
+}
+
+.author-block-wrap{
+	position: relative;
+}
+.author-block{
+	position: absolute;
+	bottom: 0;
+}
+
+.author-name-block{
+	background-color: #131313;
+	position: absolute;
+	bottom: 0;
+	width: 50vw;
+	padding: 20px 60px;
+}
+
+.author-name{
+	color: #d3ad74;
+	font-size: 18px;
+	font-family: Neumann;
+}
+
+.author-name-block li{
+	font-size: 14px;
+	list-style-type: none;
+}
+
+@media (max-width: 1199px) {
+	.director-biography {padding-left: 0px;margin-bottom: 50px;}
+}
+
+
+/*.director *{
+border: 1px solid red;
+}*/

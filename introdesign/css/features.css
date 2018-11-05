@@ -1,0 +1,29 @@
+.features .container{
+	background-color: #f6f6f6;
+	padding: 10px 55px;
+}
+
+.features{
+	margin-top: -48px;
+	position: absolute;
+	width: 100%;
+}
+
+.features-num{
+	font-size: 52px;
+	color: rgba(21,21,21,.3);
+	font-family: Neumann, sans-serif;
+}
+
+
+.features-text{
+	color: #1f1f1f;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-left: 45px;
+}
+
+.feature{
+	display: flex;
+	align-items: center;
+}

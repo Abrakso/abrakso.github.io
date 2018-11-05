@@ -1,0 +1,21 @@
+.ch-of-st-texts{
+	padding-left: 70px;
+	padding-right: 140px;
+
+}
+
+.consult{
+	margin-top: 50px;
+	display: flex;
+}
+
+.hand-bg{
+	position: relative;
+}
+
+.choose-of-style{
+	background-image: url(../img/hand.png) ;
+	background-repeat: no-repeat;
+	background-position: 850px 50px;
+	/*z-index: -1;*/
+}
