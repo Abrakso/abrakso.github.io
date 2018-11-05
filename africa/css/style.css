@@ -1,0 +1,141 @@
+@import url("fonts.css");
+@import url("header-main.css");
+@import url("welcome.css");
+@import url("features.css");
+@import url("places.css");
+@import url("popular.css");
+@import url("footer.css");
+
+
+html{
+	font-size: 10px;
+}
+
+body{
+	font-size: 16px;
+	margin: 0px;
+	font-family: RobotoRegular;
+}
+
+main{
+	overflow: hidden;
+}
+
+img{
+	max-width: 100%;
+}
+
+.main-title{
+	font-size: 6.8rem;
+	color: #fff;
+	font-family: RobotoLight, sans-serif;
+}
+
+.title{
+	font-size: 3.6rem;
+	color: #2a2a2a;
+	padding: 0;
+	margin: 0;
+	/*text-align: center;*/
+	position: relative;
+}
+
+.title label{
+	position: absolute;
+	font-family: GoodVibesPro;
+	font-size: 3.3rem;
+	color: #b6a454;
+	right: -10%;
+	top: -65%;
+}
+
+.subtitle{
+	text-align: center;
+	font-size: 1.8rem;
+	margin: 0;
+	margin-bottom: 70px;
+	padding: 0;
+}
+
+.title-small{
+	font-size: 2.5rem;
+	color: #2a2a2a;
+}
+
+.title-small label{
+	position: absolute;
+	font-family: GoodVibesPro;
+	font-size: 3.3rem;
+	color: #b6a454;
+	right: -15%;
+	top: -65%;
+}
+
+.button img{
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.button{
+	border-radius: 100px;
+	padding: 1.5rem 1.5rem;
+	vertical-align: middle;
+	border: none;
+	cursor: pointer;
+}
+
+input:focus{
+	outline: none;
+}
+
+button:focus{
+	outline: none;
+}
+
+.button-hollow{
+	border:2px solid #fff;
+	font-size: 1.4rem;
+	color: #ffda78;
+	background: transparent;
+}
+
+.button-dark{
+	background-color: #313131;
+	font-family: RobotoBold;
+	font-weight: 800;
+	font-size: 2rem;
+	text-decoration: none;
+	color: #fff;
+	padding: 2rem 5rem;
+}
+
+.button-orange{
+  	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: linear-gradient(45deg, #f7a908, #f75508);
+	padding: 1.5rem 4rem;
+	color: #fff;
+	border-radius: 50px;
+	font-size: 2rem;
+	font-family: RobotoBold;
+	font-weight: 800;
+}
+
+.button-original{
+	border:2px solid #b6a454;
+	background-color:transparent;
+	font-size: 2rem;
+	color: #b6a454;
+	font-family: RobotoBold;
+	font-weight: 800;
+	padding: 1.5rem 4rem;
+}
+
+.text-orange{
+	font-family: RobotoLight;
+	font-size: 16px;
+	color: #ff9537;
+
+}
+

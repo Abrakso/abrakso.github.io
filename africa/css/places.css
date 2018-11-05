@@ -1,0 +1,123 @@
+.places{
+	background-color: #f8f8f8;
+	padding-top: 80px;
+	padding-bottom: 65px;
+}
+
+.places .container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.places .title{
+	margin: 0;
+	display: inline-block;
+}
+
+.title-wrap{
+	width: 100%;
+	text-align: center;
+}
+
+.places-block1, .places-block2{
+	display: flex;
+}
+
+.places-wrap1{
+	display: flex;
+	flex-direction: column;
+}
+
+.places-wrap2{
+	display: flex;
+}
+
+.places-small-blocks{
+	display: flex;
+}
+
+.place{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	border-radius: 50px;
+	color: #fff;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 4.1rem;
+
+}
+
+.place strong{
+	font-size: 20px;
+	font-family: RobotoBold;
+	font-weight: 800;
+}
+
+.places-small, .places-horizontal, .places-vertical{
+	margin: 1rem;
+}
+
+.places-small{
+	width: 32rem;
+	height: 32rem;
+}
+
+.places-horizontal{
+	width: 66rem;
+	height: 32rem;
+}
+
+.places-vertical{
+	width: 32rem;
+	height: 66rem;
+}
+
+.south-africa{
+	background-image: url(../img/south-africa.jpg);
+}
+
+.namibia{
+	background-image: url(../img/namibia.jpg);
+}
+
+.botswana{
+	background-image: url(../img/botswana.jpg);
+}
+
+.zambia{
+	background-image: url(../img/zambia.jpg);
+}
+
+.south-africa2{
+	background-image: url(../img/south-africa2.jpg);
+}
+
+.madagascar{
+	background-image: url(../img/madagascar.jpg);
+}
+
+.kenia{
+	background-image: url(../img/kenia.jpg);
+}
+
+.zimbabwe{
+	background-image: url(../img/zimbabwe.jpg);
+}
+
+.mozambique{
+	background-image: url(../img/mozambique.jpg);
+}
+
+@media (max-width:1199px){
+	.places-small, .places-horizontal, .places-vertical {margin: .5rem}
+	.places-small {width: 30rem; height: 30rem;}
+	.places-horizontal {width: 61rem; height: 30rem;}
+	.places-vertical {width: 30rem; height: 61rem;}
+}
+

@@ -1,0 +1,144 @@
+.header-main{
+	background: #42768f url(../img/header-main-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	-webkit-background-size: cover;
+	background-size: cover;
+	color: #fff;
+	padding: 80px 0px 410px 0px;
+}
+
+.medal{
+	margin-left: 20px;
+}
+
+.medal img, .medal p{
+	vertical-align: middle;
+	font-size: 1.8rem;
+}
+
+.medal p{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 18px;
+	font-family: RobotoRegular;
+}
+
+.header-contacts{
+	text-align: right;
+}
+
+.header-contacts span{
+	margin-left: 1.5rem;
+	font-size: 1.5rem;
+	font-family: RobotoRegular;
+}
+
+.header-contact a{
+	color: #ffda78;
+	font-family: RobotoRegular;
+	font-size: 1.5rem;
+}
+
+.header-phone{
+	font-family: RobotoLight;
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+}
+
+.header-phone strong{
+	font-family: RobotoBold;
+	font-size: 2.5rem;
+}
+
+.header-button-block{
+	text-align: right;
+	/* margin-top: 15px; */
+}
+
+.main-title h1{
+	font-size: 6.8rem;
+	font-family: RobotoLight;
+	margin: 0px;
+	margin-top: 70px;
+	font-weight: 200;
+	position: relative;
+	display: inline-block;
+}
+
+.main-title h1 p{
+	font-family: GoodVibesPro;
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	font-weight: 200;
+	font-size: 39px;
+	line-height: 25px;
+	top: 35%;
+	right: -15%;
+	color: #efe3b0;
+}
+
+nav{
+	background-color: #2a2a2a;
+	padding: 13px 0px;
+}
+
+.navigation{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navigation ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+}
+
+.navigation li{
+	list-style-type: none;
+	display: block;
+	font-family: RobotoBold;
+	padding: 0;
+	margin: 0;
+}
+
+.navigation li a{
+	text-decoration: none;
+	display: block;
+	font-weight: 800;
+	color: #fff;
+	font-size: 1.6rem;
+	padding: 1.5rem 2.4rem;	
+	border-radius: 50px;
+	text-transform: uppercase;
+}
+
+
+.navigation li a:hover{
+  	display: inline-block;
+	text-decoration: none;
+	background: linear-gradient(45deg, #f7a908, #f75508);
+}
+
+.language a:last-child{
+	margin-left: 15px;
+}
+
+@media (max-width: 1199px) {
+	.header-contact span{display: block;}
+	/* .header-phone{margin-bottom: 30px;} */
+	.navigation ul a{font-size: 1.2rem; padding: 1.2rem 2.2rem;	}
+	.medal p{display: inline-block;font-size: 1.5rem;}
+}
+
+@media (max-width: 991px) {
+	.medal {display: inline-block;text-align: center;}
+	.medal p{display: block;}
+}
+
+@media (max-width: 770px) {
+	.logo-img, .medal, .header-contacts{text-align: center; display: block;margin-bottom: 30px;}
+}

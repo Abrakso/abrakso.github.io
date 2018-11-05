@@ -1,0 +1,26 @@
+.features{
+	padding: 6rem 0rem;
+}
+
+.features .title-small{
+	text-align: center;
+}
+
+.feature-number{
+	font-size: 1.8rem;
+	color: #b6a454;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.feature-text{
+	text-align: center;
+	font-size: 1em;
+	line-height: 29px;
+}
+
+.feature-text strong{
+	font-size: 2.5rem;
+	font-family: RobotoBold;
+	font-weight: 800;
+}

@@ -1,0 +1,92 @@
+.popular{
+	position: relative;
+}
+
+
+
+.popular-сapetown::after{
+	content: '';
+	background-image: url(../img/popular-bg2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	display: block;
+	width: 50%;
+	height: 100%;
+	top: 0;
+	right: 0;
+}
+
+.popular-zambia::after{
+	content: '';
+	background-image: url(../img/popular-bg3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	display: block;
+	width: 50%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.popular-mozambique::after{
+	content: '';
+	background-image: url(../img/popular-bg1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	display: block;
+	width: 50%;
+	height: 100%;
+	top: 0;
+	right: 0;
+}
+
+.popular .title{
+	margin-top: 0;
+}
+
+.popular .title label{
+	position: absolute;
+	font-family: GoodVibesPro;
+	font-size: 3.3rem;
+	color: #b6a454;
+	left: -15%;
+	top: -10%;
+}
+
+.popular-content{
+	padding: 10rem 0rem 4.5rem 0rem;
+}
+
+.popular ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 25px;
+	font-family: RobotoLight;
+}
+
+.popular ul strong{
+	font-family: RobotoBold;
+	font-weight: 800;
+}
+
+.popular .price{
+	font-size: 2.5rem;
+	font-family: RobotoBold;
+	font-weight: 800;
+}
+
+.popular-content p{
+	padding: 25px 0px;
+	font-family: RobotoLight;
+}
+
+@media (max-width: 1199px){
+	.pupular-left{padding-left: 7rem;}
+}
