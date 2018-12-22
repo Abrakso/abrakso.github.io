@@ -1,7 +1,7 @@
 @font-face {
     font-family: GoodVibesPro; /* имя шрифта для CSS правил */
     src: local("Good Vibes Pro"), 
-    url(../fonts/good-vibes-pro.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+    url(../fonts/GoodVibesPro.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
  }
 
 @font-face {
