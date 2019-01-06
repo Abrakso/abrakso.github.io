@@ -7,7 +7,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<title>Наш Штат</title>
-	<link rel="icon" href="favicon.ico">
+	<!-- <link rel="icon" href="icon.ico"> -->
 	<link href="css/libs.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 </head>
@@ -21,7 +21,7 @@
 					<li class="nav_items_item"><a class="nav_items_link nav_items_link-price2018" href="price.html">Прайс 2018</a></li>
 					<li class="nav_items_item"><a class="nav_items_link" href="company.html">О нас</a></li>
 					<li class="nav_items_item"><a class="nav_items_link" href="faq.html">Помощь</a></li>
-					<li class="nav_items_item"><a class="nav_items_link" href="contacts.html">Контакты</a></li>
+					<li class="nav_items_item"><a class="nav_items_link nav_items_link-active" href="contacts.html">Контакты</a></li>
 				</ul>
 			</nav>
 			<div class="headerContacts">
@@ -41,60 +41,71 @@
 		</div>
 	</header>
 	<main class="main">
-		<section class="firstScreen">
-			<div class="container firstScreenBg">
-				<div class="firstScreen-content">
-					<h1 class="mainTitle">Услуги<br>в Санкт-Петербурге<br>по низкой цене</h1>
-					<div class="pricesList">
-						<div class="pricesList__item"><span>Грузчик</span><span>от 119 руб.</span></div>
-						<div class="pricesList__item"><span>Разнорабочий</span><span>от 120 руб.</span></div>
-						<div class="pricesList__item"><span>Упаковщица</span><span>от 119 руб.</span></div>
-						<div class="pricesList__item"><span>Такелажник</span><span>от 220 руб.</span></div>
+		<section class="contacts">
+			<div class="container">
+				<div class="row">
+					<div class="contacts_info">
+						<h2 class="contacts_info_title">Выполняем заказы 24/7</h2>
+						<div class="contacts_info_phone">
+							<div class="contacts_icon"><img class="svg" src="img/phone-call.svg" alt=""></div>
+							<div>(812) 984-88-94<br>(812) 984-88-94</div>
+						</div>
+						<div class="contacts_info_time">
+							<div class="contacts_icon"><img class="svg" src="img/clock.svg" alt=""></div>
+							<div>прием заказов 8:00 – 20:00<br>бухгалтерия 10:00 – 18:00</div>
+						</div>
+						<div class="contacts_info_email">Пишите — <a href="mailto:info@nashtat.ru">info@nashtat.ru</a></div>
+						<div class="contacts_info_papers">
+							<a href="#" class="priceBlock_content_menu_link">Договор</a><a href="#" class="priceBlock_content_menu_link">Акт</a>
+						</div>
 					</div>
-					
-						<a href="price.html"class="btn btn-yellow">Цены и акции</a>
-					
-				</div>
-				<div class="circle">
-					<div class="circle-content">
-						<p class="circle-text">грузчики от</p>
-						<p class="circle-price">119</p>
-						<p class="circle-text">рублей</p>
+					<div class="margin margin-4"></div>
+					<div class="contacts_text">
+						<div class="replica">Профессионально<br>консультируем<br>по услугам, стоимости и срокам</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="features">
-			<div class="container">
-				<h2 class="features_title">Почему с нами удобно:</h2>
-				<div class="featuresBlock">
-					<div class="featuresBlock_feature">
-						<img class="featuresBlock_feature_img svg" src="img/24-hours.svg" alt="">
-						<p class="featuresBlock_feature_descr">24/7 выполняем<br>заказы</p>
+		<section class="location">
+			<div class="container row">
+					<div class="location_info">
+						<div class="location_info_adress">
+							<div class="contacts_icon"><img class="svg" src="img/location-pin.svg" alt=""></div>
+							<div>
+								<div class="location_title">Наш офис<br> в Санкт-Петербурге</div>
+								<div class="location_info_adress_street">195112 г. Санкт-Петербург, пр-кт Шаумяна, дом 49А, офис 107</div>
+							</div>
+						</div>
+						<div class="location_info_papers">
+							<div class="contacts_icon"><img class="svg" src="img/file.svg" alt=""></div>
+							<div>
+								<div class="location_title">Наши реквизиты</div>
+								<div class="location_info_papers_list">
+									<ul>
+										<li>ИНН 7806268944</li>
+										<li>КПП 780601001</li>
+										<li>ОГРН 1177847173910</li>
+										<li>БИК 044525974</li>
+									</ul>
+									<ul>
+										<li>К/с 30101810145250000974</li>
+										<li>Банк АО "ТИНЬКОФФ БАНК"</li>
+										<li>Р/с 40702810410000128112</li>
+									</ul>
+								</div>
+								<div class="location_info_papers_adress">Юр. адрес 195112 г.<br> Санкт-Петербург, пр-кт Шаумяна,<br> дом 49А, офис 107</div>
+							</div>
+						</div>
 					</div>
-					<div class="featuresBlock_feature">
-						<img class="featuresBlock_feature_img svg" src="img/padlock.svg" alt="">
-						<p class="featuresBlock_feature_descr">фиксированная<br>стоимость</p>
+					<div class="location_map">
+						<div class="map"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A2401cce20351f603f1e858e496da7c36cdb3aebdfe54a04ea3ddf310fd2c560d&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe></div>
 					</div>
-					<div class="featuresBlock_feature">
-						<img class="featuresBlock_feature_img svg" src="img/wait.svg" alt="">
-						<p class="featuresBlock_feature_descr">персонал<br>в течение 1 часа</p>
-					</div>
-					<div class="featuresBlock_feature">
-						<img class="featuresBlock_feature_img svg" src="img/calendar.svg" alt="">
-						<p class="featuresBlock_feature_descr">отсрочка при<br>крупных заказах</p>
-					</div>
-					<div class="featuresBlock_feature">
-						<img class="featuresBlock_feature_img svg" src="img/credit-card-.svg" alt="">
-						<p class="featuresBlock_feature_descr">удобные<br>способы оплаты</p>
-					</div>
-				</div>
+
 			</div>
 		</section>
 		<section class="clients">
 			<div class="container clients_content">
 				<h3 class="clients_content_title">Среди наших клиентов</h3>
-				<!-- clients_content_logos  -->
 				<div class="clients_content_logos">
 					<div class="owl-carousel">
 						<div class="client_logo client_logo_first">
@@ -114,7 +125,6 @@
 						</div>
 					</div>
 				</div>
-
 			</div>
 		</section>
 		<section class="callBack">
@@ -131,7 +141,6 @@
 			</div>
 		</section>
 	</main>
-
 	<footer class="footer">
 		<div class="container">
 			<div class="footer_services">
@@ -281,6 +290,8 @@
 			
 	
 	</footer>
+
+	
 	<script src="js/libs.min.js"></script>
 	<script src="js/script.js"></script>
 </body>

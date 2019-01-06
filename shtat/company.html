@@ -10,6 +10,7 @@
 	<link rel="icon" href="favicon.ico">
 	<link href="css/libs.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 
 <body>
@@ -19,7 +20,7 @@
 			<nav class="nav">
 				<ul class="nav_items">
 					<li class="nav_items_item"><a class="nav_items_link nav_items_link-price2018" href="price.html">Прайс 2018</a></li>
-					<li class="nav_items_item"><a class="nav_items_link" href="company.html">О нас</a></li>
+					<li class="nav_items_item"><a class="nav_items_link nav_items_link-active" href="company.html">О нас</a></li>
 					<li class="nav_items_item"><a class="nav_items_link" href="faq.html">Помощь</a></li>
 					<li class="nav_items_item"><a class="nav_items_link" href="contacts.html">Контакты</a></li>
 				</ul>
@@ -41,53 +42,205 @@
 		</div>
 	</header>
 	<main class="main">
-		<section class="firstScreen">
-			<div class="container firstScreenBg">
-				<div class="firstScreen-content">
-					<h1 class="mainTitle">Услуги<br>в Санкт-Петербурге<br>по низкой цене</h1>
-					<div class="pricesList">
-						<div class="pricesList__item"><span>Грузчик</span><span>от 119 руб.</span></div>
-						<div class="pricesList__item"><span>Разнорабочий</span><span>от 120 руб.</span></div>
-						<div class="pricesList__item"><span>Упаковщица</span><span>от 119 руб.</span></div>
-						<div class="pricesList__item"><span>Такелажник</span><span>от 220 руб.</span></div>
-					</div>
-					
-						<a href="price.html"class="btn btn-yellow">Цены и акции</a>
-					
-				</div>
-				<div class="circle">
-					<div class="circle-content">
-						<p class="circle-text">грузчики от</p>
-						<p class="circle-price">119</p>
-						<p class="circle-text">рублей</p>
-					</div>
+		
+		<section class="about">
+			<div class="container aboutBg">
+				<div class="about_content">
+					<img src="img/logoColor.svg" alt="logo">
+					<div class="about_content_text"><span class="blue">10</span> видов услуг</div>
+					<div class="about_content_text"><span class="blue">14 000</span> рабочих</div>
+					<div class="about_content_text">с <span class="blue">2010</span> года на рынке</div>
 				</div>
 			</div>
 		</section>
-		<section class="features">
+
+		<section class="features features-about">
 			<div class="container">
-				<h2 class="features_title">Почему с нами удобно:</h2>
-				<div class="featuresBlock">
-					<div class="featuresBlock_feature">
-						<img class="featuresBlock_feature_img svg" src="img/24-hours.svg" alt="">
-						<p class="featuresBlock_feature_descr">24/7 выполняем<br>заказы</p>
+				<div class="features_row">
+					
+					<div class="featuresBlock features_slider">
+						<div class="featuresBlock_feature">
+							<img class="featuresBlock_feature_img svg" src="img/package.svg" alt="">
+							<p class="featuresBlock_feature_descr">Грузчики</p>
+						</div>
+						<div class="featuresBlock_feature">
+							<img class="featuresBlock_feature_img svg" src="img/delivery-truck.svg" alt="">
+							<p class="featuresBlock_feature_descr">Переезды</p>
+						</div>
+						<div class="featuresBlock_feature">
+							<img class="featuresBlock_feature_img svg" src="img/repair.svg" alt="">
+							<p class="featuresBlock_feature_descr">Разнорабочие</p>
+						</div>
+						<div class="featuresBlock_feature">
+							<img class="featuresBlock_feature_img svg" src="img/duster.svg" alt="">
+							<p class="featuresBlock_feature_descr">Уборка и клининг</p>
+						</div>
+						<div class="featuresBlock_feature">
+							<img class="featuresBlock_feature_img svg" src="img/drill-tool.svg" alt="">
+							<p class="featuresBlock_feature_descr">Демонтаж</p>
+						</div>
+						<div class="featuresBlock_feature">
+							<img class="featuresBlock_feature_img svg" src="img/trolley.svg" alt="">
+							<p class="featuresBlock_feature_descr">Такелажники</p>
+						</div>
+						<div class="featuresBlock_feature">
+							<img class="featuresBlock_feature_img svg" src="img/recycle-bin.svg" alt="">
+							<p class="featuresBlock_feature_descr">Вывоз мусора</p>
+						</div>
+						<div class="featuresBlock_feature">
+							<img class="featuresBlock_feature_img svg" src="img/construction.svg" alt="">
+							<p class="featuresBlock_feature_descr">Уборка снега</p>
+						</div>
+						<div class="featuresBlock_feature">
+							<img class="featuresBlock_feature_img svg" src="img/drill-tool.svg" alt="">
+							<p class="featuresBlock_feature_descr">Аренда спецтехники</p>
+						</div>
 					</div>
-					<div class="featuresBlock_feature">
-						<img class="featuresBlock_feature_img svg" src="img/padlock.svg" alt="">
-						<p class="featuresBlock_feature_descr">фиксированная<br>стоимость</p>
+					
 					</div>
-					<div class="featuresBlock_feature">
-						<img class="featuresBlock_feature_img svg" src="img/wait.svg" alt="">
-						<p class="featuresBlock_feature_descr">персонал<br>в течение 1 часа</p>
+					<div class="features_img">
+						<img src="./img/woman02.png" alt="">
 					</div>
-					<div class="featuresBlock_feature">
-						<img class="featuresBlock_feature_img svg" src="img/calendar.svg" alt="">
-						<p class="featuresBlock_feature_descr">отсрочка при<br>крупных заказах</p>
+				
+			</div>
+		</section>
+
+		<section class="comments comments-about">
+			<div class="container comments_container">
+				<div class="comments_superWrap">
+					<div class="comments_wrap">
+						<p class="comments_wrap_realTimeComments">Отзывы клиентов в реальном времени</p>
+						<div class="comments_slider">
+							<div class="comments_slider_item">
+								<div class="comments_slider_item_logo">СИ</div>
+								<div class="comments_slider_item_info">
+									<div class="comments_slider_item_info_name">Сергей Иванов </div>
+									<span class="comments_slider_item_info_phone">+7 (911) 810 ** **</span>
+									<span class="comments_slider_item_info_location">Санкт-Петербург</span>
+								</div>
+								<div class="comments_slider_item_rating">
+									<div class="comments_slider_item_rating_time">Сегодня 13:48</div>
+									<div class="comments_slider_item_rating_stars">
+										<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray"></i><i class="fas fa-star gray"></i>
+									</div>
+								</div>
+							</div>
+						
+							<div class="comments_slider_item">
+								<div class="comments_slider_item_logo">ИС</div>
+								<div class="comments_slider_item_info">
+									<div class="comments_slider_item_info_name">Иван Сергеев</div>
+									<span class="comments_slider_item_info_phone">+7 (911) 810 ** **</span>
+									<span class="comments_slider_item_info_location">Санкт-Петербург</span>
+								</div>
+								<div class="comments_slider_item_rating">
+									<div class="comments_slider_item_rating_time">Сегодня 13:48</div>
+									<div class="comments_slider_item_rating_stars">
+										<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray"></i><i class="fas fa-star gray"></i>
+									</div>
+								</div>
+							</div>
+							<div class="comments_slider_item">
+								<div class="comments_slider_item_logo">ИС</div>
+								<div class="comments_slider_item_info">
+									<div class="comments_slider_item_info_name">Иван Сергеев</div>
+									<span class="comments_slider_item_info_phone">+7 (911) 810 ** **</span>
+									<span class="comments_slider_item_info_location">Санкт-Петербург</span>
+								</div>
+								<div class="comments_slider_item_rating">
+									<div class="comments_slider_item_rating_time">Сегодня 13:48</div>
+									<div class="comments_slider_item_rating_stars">
+										<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray"></i><i class="fas fa-star gray"></i>
+									</div>
+								</div>
+							</div>
+							<div class="comments_slider_item">
+								<div class="comments_slider_item_logo">ИС</div>
+								<div class="comments_slider_item_info">
+									<div class="comments_slider_item_info_name">Иван Сергеев</div>
+									<span class="comments_slider_item_info_phone">+7 (911) 810 ** **</span>
+									<span class="comments_slider_item_info_location">Санкт-Петербург</span>
+								</div>
+								<div class="comments_slider_item_rating">
+									<div class="comments_slider_item_rating_time">Сегодня 13:48</div>
+									<div class="comments_slider_item_rating_stars">
+										<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray"></i><i class="fas fa-star gray"></i>
+									</div>
+								</div>
+							</div>
+							<div class="comments_slider_item">
+								<div class="comments_slider_item_logo">ИС</div>
+								<div class="comments_slider_item_info">
+									<div class="comments_slider_item_info_name">Иван Сергеев</div>
+									<span class="comments_slider_item_info_phone">+7 (911) 810 ** **</span>
+									<span class="comments_slider_item_info_location">Санкт-Петербург</span>
+								</div>
+								<div class="comments_slider_item_rating">
+									<div class="comments_slider_item_rating_time">Сегодня 13:48</div>
+									<div class="comments_slider_item_rating_stars">
+										<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray"></i><i class="fas fa-star gray"></i>
+									</div>
+								</div>
+							</div>
+							<div class="comments_slider_item">
+								<div class="comments_slider_item_logo">ИС</div>
+								<div class="comments_slider_item_info">
+									<div class="comments_slider_item_info_name">Иван Сергеев</div>
+									<span class="comments_slider_item_info_phone">+7 (911) 810 ** **</span>
+									<span class="comments_slider_item_info_location">Санкт-Петербург</span>
+								</div>
+								<div class="comments_slider_item_rating">
+									<div class="comments_slider_item_rating_time">Сегодня 13:48</div>
+									<div class="comments_slider_item_rating_stars">
+										<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray"></i><i class="fas fa-star gray"></i>
+									</div>
+								</div>
+							</div>
+							<div class="comments_slider_item">
+								<div class="comments_slider_item_logo">ИС</div>
+								<div class="comments_slider_item_info">
+									<div class="comments_slider_item_info_name">Иван Сергеев</div>
+									<span class="comments_slider_item_info_phone">+7 (911) 810 ** **</span>
+									<span class="comments_slider_item_info_location">Санкт-Петербург</span>
+								</div>
+								<div class="comments_slider_item_rating">
+									<div class="comments_slider_item_rating_time">Сегодня 13:48</div>
+									<div class="comments_slider_item_rating_stars">
+										<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray"></i><i class="fas fa-star gray"></i>
+									</div>
+								</div>
+							</div>
+							<div class="comments_slider_item">
+								<div class="comments_slider_item_logo">ИС</div>
+								<div class="comments_slider_item_info">
+									<div class="comments_slider_item_info_name">Иван Сергеев</div>
+									<span class="comments_slider_item_info_phone">+7 (911) 810 ** **</span>
+									<span class="comments_slider_item_info_location">Санкт-Петербург</span>
+								</div>
+								<div class="comments_slider_item_rating">
+									<div class="comments_slider_item_rating_time">Сегодня 13:48</div>
+									<div class="comments_slider_item_rating_stars">
+										<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray"></i><i class="fas fa-star gray"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p class="comments_wrap_score">Мы уже собрали 45 789 отзывов</p>
 					</div>
-					<div class="featuresBlock_feature">
-						<img class="featuresBlock_feature_img svg" src="img/credit-card-.svg" alt="">
-						<p class="featuresBlock_feature_descr">удобные<br>способы оплаты</p>
-					</div>
+				</div>
+				<div class="comments_cta">
+					<p class="comments_cta_title">Закажите по телефону</p>
+					<p class="comments_cta_phone">(812) 984-88-94</p>
+					<p class="comments_cta_time">8:00 – 20:00 по будням</p>
+				</div>
+			</div>
+		</section>
+		<section class="about2">
+			<div class="container">
+				<div class="about2-bg"></div>
+				<div class="about2_content">
+					<div class="about2_content_number">14 000</div>
+					<div class="about2_content_text">ответственных исполнителей, готовых взяться за выполнение вашей задачи</div>
 				</div>
 			</div>
 		</section>
@@ -131,7 +284,6 @@
 			</div>
 		</section>
 	</main>
-
 	<footer class="footer">
 		<div class="container">
 			<div class="footer_services">
@@ -281,6 +433,7 @@
 			
 	
 	</footer>
+	
 	<script src="js/libs.min.js"></script>
 	<script src="js/script.js"></script>
 </body>

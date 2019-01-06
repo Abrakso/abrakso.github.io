@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta charset="utf-8">
@@ -7,9 +7,10 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<title>Наш Штат</title>
-	<!-- <link rel="icon" href="icon.ico"> -->
+	<link rel="icon" href="favicon.ico">
 	<link href="css/libs.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 
 <body>
@@ -18,10 +19,10 @@
 			<div class="logo"><a href="index.html"><img src="img/logo.svg" alt=""></a></div>
 			<nav class="nav">
 				<ul class="nav_items">
-					<li class="nav_items_item"><a class="nav_items_link nav_items_link-active nav_items_link-price2018" href="#">Прайс 2018</a></li>
-					<li class="nav_items_item"><a class="nav_items_link" href="#">О нас</a></li>
-					<li class="nav_items_item"><a class="nav_items_link" href="#">Помощь</a></li>
-					<li class="nav_items_item"><a class="nav_items_link" href="#">Контакты</a></li>
+					<li class="nav_items_item"><a class="nav_items_link nav_items_link-active nav_items_link-price2018" href="price.html">Прайс 2018</a></li>
+					<li class="nav_items_item"><a class="nav_items_link" href="company.html">О нас</a></li>
+					<li class="nav_items_item"><a class="nav_items_link" href="faq.html">Помощь</a></li>
+					<li class="nav_items_item"><a class="nav_items_link" href="contacts.html">Контакты</a></li>
 				</ul>
 			</nav>
 			<div class="headerContacts">
@@ -42,76 +43,304 @@
 	</header>
 
 	<main>
-		<section class="priceList">
+		<section class="priceBlock">
 			<div class="container priceListBg">
-				<h2 class="priceList_title">Квартирный переезд</h2>
-				<small class="priceList_subtitle">в Санкт-Петербурге</small>
-				<div class="priceList_pricesBlock">
-					<ul class="priceList_pricesBlock_kindOfWorks">
-						<li class="priceList_pricesBlock_kindOfWorks_item"><a class="priceList_pricesBlock_kindOfWorks_link priceList_pricesBlock_kindOfWorks_link" href="price.html">Услуги грузчиков</a></li>
-						<li class="priceList_pricesBlock_kindOfWorks_item-active"><a class="priceList_pricesBlock_kindOfWorks_link" href="price2.html">Квартирный переезд</a></li>
-						<li class="priceList_pricesBlock_kindOfWorks_item"><a class="priceList_pricesBlock_kindOfWorks_link" href="#">Офисный переезд</a></li>
-						<li class="priceList_pricesBlock_kindOfWorks_item"><a class="priceList_pricesBlock_kindOfWorks_link" href="#">Дачный переезд</a></li>
-						<li class="priceList_pricesBlock_kindOfWorks_item"><a class="priceList_pricesBlock_kindOfWorks_link" href="#">Разнорабочие</a></li>
-						<li class="priceList_pricesBlock_kindOfWorks_item"><a class="priceList_pricesBlock_kindOfWorks_link" href="#">Уборка и клининг</a></li>
-						<li class="priceList_pricesBlock_kindOfWorks_item"><a class="priceList_pricesBlock_kindOfWorks_link" href="#">Демонтажные работы</a></li>
-						<li class="priceList_pricesBlock_kindOfWorks_item"><a class="priceList_pricesBlock_kindOfWorks_link" href="#">Такелажные работы</a></li>
-						<li class="priceList_pricesBlock_kindOfWorks_item"><a class="priceList_pricesBlock_kindOfWorks_link" href="#">Вывоз мусора</a></li>
-						<li class="priceList_pricesBlock_kindOfWorks_item"><a class="priceList_pricesBlock_kindOfWorks_link" href="#">Уборка снега</a></li>
-						<li class="priceList_pricesBlock_kindOfWorks_item"><a class="priceList_pricesBlock_kindOfWorks_link" href="#">Аренда транспорта и спецтехники</a></li>
-						<li class="priceList_pricesBlock_kindOfWorks_btn"><a class="priceList_pricesBlock_kindOfWorks_link" href="#">Ещё 10...</a></li>
-						<li class="priceList_pricesBlock_kindOfWorks_item priceList_pricesBlock_kindOfWorks_more priceList_pricesBlock_kindOfWorks_more-show"><a class="priceList_pricesBlock_kindOfWorks_link" href="#">Скрыть</a></li>
-
-					</ul>
-					<div class="priceList_pricesBlock_priceOfWorks">
-						<div class="priceList_pricesBlock_priceOfWorks_block1">
-							<ul class="priceList_pricesBlock_priceOfWorks_block1_list1">
-								<li>Грузчик (стандартные работы)</li>
-								<li>Грузчик (такелажные работы) </li>
-								<li>Грузчик для погрузки мусора</li>
-								<li>Разнорабочий</li>
-								<li>Подсобник</li>
-								<li>Упаковщик</li>
-								<li>Экспедитор</li>
-							</ul>
-							<ul class="priceList_pricesBlock_priceOfWorks_block1_list2">
-								<li>от 130</li>
-								<li>от 130</li>
-								<li>от 130</li>
-								<li>от 130</li>
-								<li>от 130</li>
-								<li>от 130</li>
+				<h2 class="priceBlock_title">Квартирный переезд</h2>
+				<small class="priceBlock_subtitle">в Санкт-Петербурге</small>
+				<div class="priceBlock_content">
+					<div class="priceBlock_content_menuWrap">
+						<ul class="priceBlock_content_menu">
+							<li class="priceBlock_content_menu_item"><a class="priceBlock_content_menu_link priceBlock_content_menu_link" href="price.html">Услуги грузчиков</a></li>
+							<li class="priceBlock_content_menu_item-active"><a class="priceBlock_content_menu_link" href="price2.html">Квартирный переезд</a></li>
+							<li class="priceBlock_content_menu_item"><a class="priceBlock_content_menu_link" href="#">Офисный переезд</a></li>
+							<li class="priceBlock_content_menu_item"><a class="priceBlock_content_menu_link" href="#">Дачный переезд</a></li>
+							<li class="priceBlock_content_menu_item"><a class="priceBlock_content_menu_link" href="#">Разнорабочие</a></li>
+							<li class="priceBlock_content_menu_item"><a class="priceBlock_content_menu_link" href="#">Уборка и клининг</a></li>
+							<li class="priceBlock_content_menu_item"><a class="priceBlock_content_menu_link" href="#">Демонтажные работы</a></li>
+							<li class="priceBlock_content_menu_item"><a class="priceBlock_content_menu_link" href="#">Такелажные работы</a></li>
+							<li class="priceBlock_content_menu_item"><a class="priceBlock_content_menu_link" href="#">Вывоз мусора</a></li>
+							<li class="priceBlock_content_menu_item"><a class="priceBlock_content_menu_link" href="#">Уборка снега</a></li>
+							<li class="priceBlock_content_menu_item"><a class="priceBlock_content_menu_link" href="#">Аренда транспорта и спецтехники</a></li>
+							<li class="priceBlock_content_menu_btn priceBlock_content_menu-hide"><a class="priceBlock_content_menu_link" href="#">Ещё 10...</a></li>
+							<li class="priceBlock_content_menu_item priceBlock_content_menu_more priceBlock_content_menu_more-show"><a class="priceBlock_content_menu_link" href="#">Скрыть</a></li>
+						</ul>
+					</div>
+					<div class="priceBlock_content_prices">
+						<ul class="priceBlock_content_prices_list">
+							<li>
+								<div class="priceBlock_content_prices_list_name">Грузчик (стандартные работы)</div>
+								<div class="priceBlock_content_prices_list_salePrice">от 120</div>
+								<div class="priceBlock_content_prices_list_price">от 130</div>
+							</li>
+							<li>
+								<div class="priceBlock_content_prices_list_name">Грузчик (такелажные работы)</div>
+								<div class="priceBlock_content_prices_list_salePrice">от 120</div>
+								<div class="priceBlock_content_prices_list_price">от 130</div>
+							</li>
+							<li>
+								<div class="priceBlock_content_prices_list_name">Грузчик для погрузки мусора</div>
+								<div class="priceBlock_content_prices_list_salePrice">от 120</div>
+								<div class="priceBlock_content_prices_list_price">от 130</div>
+							</li>
+							<li>
+								<div class="priceBlock_content_prices_list_name">Разнорабочий</div>
+								<div class="priceBlock_content_prices_list_salePrice">от 120</div>
+								<div class="priceBlock_content_prices_list_price">от 130</div>
+							</li>
+							<li>
+								<div class="priceBlock_content_prices_list_name">Подсобник</div>
+								<div class="priceBlock_content_prices_list_salePrice">от 120</div>
+								<div class="priceBlock_content_prices_list_price">от 130</div>
+							</li>
+							<li>
+								<div class="priceBlock_content_prices_list_name">Упаковщик</div>
+								<div class="priceBlock_content_prices_list_salePrice">от 120</div>
+								<div class="priceBlock_content_prices_list_price">от 130</div>
+							</li>
+							<li>
+								<div class="priceBlock_content_prices_list_name">Экспедитор</div>
+								<div class="priceBlock_content_prices_list_salePrice">от 9 000</div>
+								<div class="priceBlock_content_prices_list_price">от 10 000</div>
+							</li>
+							<li>
+								<div class="priceBlock_content_prices_list_cta">
+									<p class="priceBlock_content_prices_sales_seconds30">Консультация<br>за 30 секунд</p>
+									<p class="priceBlock_content_prices_sales_phone">(812) 448-08-66</p>
+								</div>
+							</li>
+						</ul>
+					
+						<div class="priceBlock_content_prices_sales">
+							<p class="priceBlock_content_prices_sales_actionTop">Акция</p>
+							<ul class="priceBlock_content_prices_list3">
+								<li>от 120</li>
+								<li>от 120</li>
+								<li>от 120</li>
+								<li>от 120</li>
+								<li>от 120</li>
+								<li>от 120</li>
 								<li>от 10 000</li>
 							</ul>
-							<div class="priceList_pricesBlock_priceOfWorks_block1_sales">
-								<p class="priceList_pricesBlock_priceOfWorks_block1_sales_actionTop">Акция</p>
-								<ul class="priceList_pricesBlock_priceOfWorks_block1_list3">
-									<li>от 120</li>
-									<li>от 120</li>
-									<li>от 120</li>
-									<li>от 120</li>
-									<li>от 120</li>
-									<li>от 120</li>
-									<li>от 10 000</li>
-								</ul>
-							<p class="priceList_pricesBlock_priceOfWorks_block1_sales_seconds30">Консультация<br>за 30 секунд</p>
-							<p class="priceList_pricesBlock_priceOfWorks_block1_sales_phone">(812) 448-08-66</p>
-							</div>
+							<p class="priceBlock_content_prices_sales_seconds30">Консультация<br>за 30 секунд</p>
+							<p class="priceBlock_content_prices_sales_phone">(812) 448-08-66</p>
+						</div>
 
 								
-						</div>
-						<p class="priceList_pricesBlock_priceOfWorks_block1_rub">Цены указаны в рублях</p>
+						
+						<p class="priceBlock_content_prices_rub">Цены указаны в рублях</p>
 						
 
-						<!-- <div class="priceList_pricesBlock_priceOfWorks_block2">
+						<!-- <div class="priceBlock_content_priceOfWorks_block2">
 							
 						</div> -->
 
-						<!-- <div class="priceList_pricesBlock_priceOfWorks_block3">
+						<!-- <div class="priceBlock_content_priceOfWorks_block3">
 							
 						</div> -->
 
 					</div>
+				</div>
+			</div>
+		</section>
+		<section class="features features-price">
+			<div class="container">
+				<div class="featuresBlock">
+					<div class="featuresBlock_feature">
+						<img class="featuresBlock_feature_img svg" src="img/24-hours.svg" alt="">
+						<p class="featuresBlock_feature_descr">24/7 выполняем<br>заказы</p>
+					</div>
+					<div class="featuresBlock_feature">
+						<img class="featuresBlock_feature_img svg" src="img/padlock.svg" alt="">
+						<p class="featuresBlock_feature_descr">фиксированная<br>стоимость</p>
+					</div>
+					<div class="featuresBlock_feature">
+						<img class="featuresBlock_feature_img svg" src="img/wait.svg" alt="">
+						<p class="featuresBlock_feature_descr">персонал<br>в течение 1 часа</p>
+					</div>
+					<div class="featuresBlock_feature">
+						<img class="featuresBlock_feature_img svg" src="img/calendar.svg" alt="">
+						<p class="featuresBlock_feature_descr">отсрочка при<br>крупных заказах</p>
+					</div>
+					<div class="featuresBlock_feature">
+						<img class="featuresBlock_feature_img svg" src="img/credit-card-.svg" alt="">
+						<p class="featuresBlock_feature_descr">удобные<br>способы оплаты</p>
+					</div>
+				</div>
+				<div class="features_img">
+					<img src="./img/woman02.png" alt="">
+				</div>
+			</div>
+		</section>
+		<section class="comments">
+			<div class="container comments_container">
+				<div class="comments_superWrap">
+					<div class="comments_wrap">
+						<p class="comments_wrap_realTimeComments">Отзывы клиентов в реальном времени</p>
+						<div class="comments_slider">
+							<div class="comments_slider_item">
+								<div class="comments_slider_item_logo">СИ</div>
+								<div class="comments_slider_item_info">
+									<div class="comments_slider_item_info_name">Сергей Иванов</div>
+									<span class="comments_slider_item_info_phone">+7 (911) 810 ** **</span>
+									<span class="comments_slider_item_info_location">Санкт-Петербург</span>
+								</div>
+								<div class="comments_slider_item_rating">
+									<div class="comments_slider_item_rating_time">Сегодня 13:48</div>
+									<div class="comments_slider_item_rating_stars">
+										<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray"></i><i class="fas fa-star gray"></i>
+									</div>
+								</div>
+							</div>
+						
+							<div class="comments_slider_item">
+								<div class="comments_slider_item_logo">ИС</div>
+								<div class="comments_slider_item_info">
+									<div class="comments_slider_item_info_name">Иван Сергеев</div>
+									<span class="comments_slider_item_info_phone">+7 (911) 810 ** **</span>
+									<span class="comments_slider_item_info_location">Санкт-Петербург</span>
+								</div>
+								<div class="comments_slider_item_rating">
+									<div class="comments_slider_item_rating_time">Сегодня 13:48</div>
+									<div class="comments_slider_item_rating_stars">
+										<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray"></i><i class="fas fa-star gray"></i>
+									</div>
+								</div>
+							</div>
+							<div class="comments_slider_item">
+								<div class="comments_slider_item_logo">ИС</div>
+								<div class="comments_slider_item_info">
+									<div class="comments_slider_item_info_name">Иван Сергеев</div>
+									<span class="comments_slider_item_info_phone">+7 (911) 810 ** **</span>
+									<span class="comments_slider_item_info_location">Санкт-Петербург</span>
+								</div>
+								<div class="comments_slider_item_rating">
+									<div class="comments_slider_item_rating_time">Сегодня 13:48</div>
+									<div class="comments_slider_item_rating_stars">
+										<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray"></i><i class="fas fa-star gray"></i>
+									</div>
+								</div>
+							</div>
+							<div class="comments_slider_item">
+								<div class="comments_slider_item_logo">ИС</div>
+								<div class="comments_slider_item_info">
+									<div class="comments_slider_item_info_name">Иван Сергеев</div>
+									<span class="comments_slider_item_info_phone">+7 (911) 810 ** **</span>
+									<span class="comments_slider_item_info_location">Санкт-Петербург</span>
+								</div>
+								<div class="comments_slider_item_rating">
+									<div class="comments_slider_item_rating_time">Сегодня 13:48</div>
+									<div class="comments_slider_item_rating_stars">
+										<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray"></i><i class="fas fa-star gray"></i>
+									</div>
+								</div>
+							</div>
+							<div class="comments_slider_item">
+								<div class="comments_slider_item_logo">ИС</div>
+								<div class="comments_slider_item_info">
+									<div class="comments_slider_item_info_name">Иван Сергеев</div>
+									<span class="comments_slider_item_info_phone">+7 (911) 810 ** **</span>
+									<span class="comments_slider_item_info_location">Санкт-Петербург</span>
+								</div>
+								<div class="comments_slider_item_rating">
+									<div class="comments_slider_item_rating_time">Сегодня 13:48</div>
+									<div class="comments_slider_item_rating_stars">
+										<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray"></i><i class="fas fa-star gray"></i>
+									</div>
+								</div>
+							</div>
+							<div class="comments_slider_item">
+								<div class="comments_slider_item_logo">ИС</div>
+								<div class="comments_slider_item_info">
+									<div class="comments_slider_item_info_name">Иван Сергеев</div>
+									<span class="comments_slider_item_info_phone">+7 (911) 810 ** **</span>
+									<span class="comments_slider_item_info_location">Санкт-Петербург</span>
+								</div>
+								<div class="comments_slider_item_rating">
+									<div class="comments_slider_item_rating_time">Сегодня 13:48</div>
+									<div class="comments_slider_item_rating_stars">
+										<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray"></i><i class="fas fa-star gray"></i>
+									</div>
+								</div>
+							</div>
+							<div class="comments_slider_item">
+								<div class="comments_slider_item_logo">ИС</div>
+								<div class="comments_slider_item_info">
+									<div class="comments_slider_item_info_name">Иван Сергеев</div>
+									<span class="comments_slider_item_info_phone">+7 (911) 810 ** **</span>
+									<span class="comments_slider_item_info_location">Санкт-Петербург</span>
+								</div>
+								<div class="comments_slider_item_rating">
+									<div class="comments_slider_item_rating_time">Сегодня 13:48</div>
+									<div class="comments_slider_item_rating_stars">
+										<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray"></i><i class="fas fa-star gray"></i>
+									</div>
+								</div>
+							</div>
+							<div class="comments_slider_item">
+								<div class="comments_slider_item_logo">ИС</div>
+								<div class="comments_slider_item_info">
+									<div class="comments_slider_item_info_name">Иван Сергеев</div>
+									<span class="comments_slider_item_info_phone">+7 (911) 810 ** **</span>
+									<span class="comments_slider_item_info_location">Санкт-Петербург</span>
+								</div>
+								<div class="comments_slider_item_rating">
+									<div class="comments_slider_item_rating_time">Сегодня 13:48</div>
+									<div class="comments_slider_item_rating_stars">
+										<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star gray"></i><i class="fas fa-star gray"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p class="comments_wrap_score">Мы уже собрали 45 789 отзывов</p>
+					</div>
+				</div>
+				<div class="comments_cta">
+					<p class="comments_cta_title">Закажите по телефону</p>
+					<p class="comments_cta_phone">(812) 984-88-94</p>
+					<p class="comments_cta_time">8:00 – 20:00 по будням</p>
+				</div>
+			</div>
+		</section>
+		<section class="clients clients-price">
+			<div class="container">
+				<div class="clients_content">
+					<h3 class="clients_content_title">Среди наших клиентов</h3>
+					<!-- clients_content_logos  -->
+					<div class="clients_content_logos">
+						<div class="owl-carousel">
+							<div class="client_logo client_logo_first">
+								<img src="img/client01.png" alt="">
+							</div>
+							<div class="client_logo">
+								<img src="img/client02.png" alt="">
+							</div>
+							<div class="client_logo">
+								<img src="img/client03.png" alt="">
+							</div>
+							<div class="client_logo">
+								<img src="img/client04.png" alt="">
+							</div>
+							<div class="client_logo client_logo_last">
+								<img src="img/client05.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				<p class="clients_text">
+					Организация переезда в СПб — это нервы и волнение, которое непременно связано с переживаниями за сохранность своего имущества при погрузке, транспортировке и выгрузке на новом месте. Для того чтобы данное мероприятие произошло быстро и без каких-либо имущественных потерь, мы предлагаем услуги профессиональных грузчиков в Санкт-Петербурге, которые с легкостью выполнят весь необходимый спектр работ, связанных с офисным или квартирным переездом. Каждый клиент Экспресс-Грузчики может самостоятельно определить перечень услуг исходя из собственных нужд и поставленной задачи — адекватные цены гарантированы.
+				</p>
+			</div>
+		</section>
+		<section class="callBack callBack-price">
+			<div class="container callBack_content">
+				<div class="callBack_content_img">
+					<img src="img/callWoman.png" alt="">
+				</div>
+				<div class="callBack_content_info">
+					<h2 class="callBack_content_info_title">Бесплатная консультация</h2>
+					<p class="callBack_content_info_day">8:00 – 20:00 по будням</p>
+					<p class="callBack_content_info_phone">(812) 448-08-66</p>
+					<button class="btn btn-hollow cbbtn" href="#callBackPop_form">Перезвоните мне</button>
 				</div>
 			</div>
 		</section>
@@ -122,42 +351,35 @@
 			<div class="footer_services">
 				<div class="footer_services_block">
 					<ul class="footer_services_block_list">
-						<li class="footer_services_block_list_item"><a class="footer_services_block_list_item_link" href="#">Услуги
-								грузчиков</a></li>
-						<li class="footer_services_block_list_item"><a class="footer_services_block_list_item_link" href="#">Квартирный
-								переезд</a></li>
-						<li class="footer_services_block_list_item"><a class="footer_services_block_list_item_link" href="#">Офисный
-								переезд</a></li>
-						<li class="footer_services_block_list_item"><a class="footer_services_block_list_item_link" href="#">Дачный
-								переезд</a></li>
-						<li class="footer_services_block_list_item"><a class="footer_services_block_list_item_link" href="#">Разнорабочие</a></li>
-						<li class="footer_services_block_list_item"><a class="footer_services_block_list_item_link" href="#">Уборка и
-								клининг</a></li>
+						<li class="footer_services_block_list_item"><a class="footer_services_block_list_item_link" href="price.html">Услуги грузчиков</a></li>
+						<li class="footer_services_block_list_item"><a class="footer_services_block_list_item_link" href="price2.html">Квартирный переезд</a></li>
+						<li class="footer_services_block_list_item"><a class="footer_services_block_list_item_link" href="price3.html">Офисный переезд</a></li>
+						<li class="footer_services_block_list_item"><a class="footer_services_block_list_item_link" href="price4.html">Дачный переезд</a></li>
+						<li class="footer_services_block_list_item"><a class="footer_services_block_list_item_link" href="price5.html">Разнорабочие</a></li>
+						<li class="footer_services_block_list_item"><a class="footer_services_block_list_item_link" href="price6.html">Уборка и клининг</a></li>
 					</ul>
 				</div>
 				<div class="footer_services_block">
 					<ul class="footer_services_block_list">
-						<li class="footer_services_block_list_item"><a class="footer_services_block_list_item_link" href="#">Демонтажные
-								работы</a></li>
-						<li class="footer_services_block_list_item"><a class="footer_services_block_list_item_link" href="#">Такелажные
-								работы</a></li>
-						<li class="footer_services_block_list_item"><a class="footer_services_block_list_item_link" href="#">Вывоз мусора</a></li>
-						<li class="footer_services_block_list_item"><a class="footer_services_block_list_item_link" href="#">Уборка снега</a></li>
-						<li class="footer_services_block_list_item"><a class="footer_services_block_list_item_link" href="#">Аренда
-								транспорта и спецтехники</a></li>
+						<li class="footer_services_block_list_item"><a class="footer_services_block_list_item_link" href="price7.html">Демонтажные работы</a></li>
+						<li class="footer_services_block_list_item"><a class="footer_services_block_list_item_link" href="price8.html">Такелажные работы</a></li>
+						<li class="footer_services_block_list_item"><a class="footer_services_block_list_item_link" href="price9.html">Вывоз мусора</a></li>
+						<li class="footer_services_block_list_item"><a class="footer_services_block_list_item_link" href="price10.html">Уборка снега</a></li>
+						<li class="footer_services_block_list_item"><a class="footer_services_block_list_item_link" href="price11.html">Аренда транспорта и спецтехники</a></li>
 					</ul>
 				</div>
 			</div>
 			<nav class="footer_nav">
 				<ul class="footer_nav_list">
-					<li class="footer_nav_list_item"><a href="#" class="footer_nav_list_item_link">Вакансии</a></li>
-					<li class="footer_nav_list_item"><a href="#" class="footer_nav_list_item_link">Франшиза</a></li>
-					<li class="footer_nav_list_item_lk"><a href="#" class="footer_nav_list_item_link footer_nav_list_item">Личный
-							кабинет</a></li>
+					<li class="footer_nav_list_item"><a href="vacancies.html" class="footer_nav_list_item_link">Вакансии</a></li>
+					<li class="footer_nav_list_item"><a href="404.html" class="footer_nav_list_item_link">Франшиза</a></li>
+					<li class="footer_nav_list_item_lk"><a href="404.html" class="footer_nav_list_item_link footer_nav_list_item">Личный кабинет</a></li>
 				</ul>
-				<p class="footer_nav_list_city">Ваш город : <br><a href="#" class="footer_nav_list_city_link">Санкт-Петербург</a></p>
+				<p class="footer_nav_list_city">Ваш город : <br><a href="#city" class="footer_nav_list_city_link citybtn">Санкт-Петербург</a></p>
 			</nav>
-			<button class="btn btn-hollow revbtn" href="#review">Оставить отзыв</button>
+			<div class="revbtn_wrap">
+				<button class="btn btn-hollow revbtn" href="#review">Оставить отзыв</button>
+			</div>
 			<div class="footer_social">
 				<a href="#" class="footer_social_link"><img class="svg" src="img/vk.svg" alt=""></a>
 				<a href="#" class="footer_social_link"><img class="svg" src="img/youtube.svg" alt=""></a>
@@ -166,8 +388,7 @@
 			<div class="footer_policy">
 				<p class="footer_policy_text">© ООО «Наш штат» 2010–2018. <a href="#policy" class="footer_policy_text_link">Политика
 						конфиденциальности</a></p>
-				<p class="footer_policy_text">Информация на данном сайте носит информационный характер и не является офертой. ст.
-					437 ч. 1 ГК РФ.</p>
+				<p class="footer_policy_text">Информация на данном сайте носит информационный характер и не является офертой. ст. 437 ч. 1 ГК РФ.</p>
 			</div>
 		</div>
 		<div class="hidden container">
@@ -182,6 +403,25 @@
 				<img class="thanks_img" src="img/logoColor.svg" alt="">
 				<p class="thanks_title">Спасибо за то, что выбрали Наш Штат.</p>
 				<p class="thanks_subtitle">Мы перезвоним Вам<br>в ближайшее время.</p>
+			</div>
+
+
+			<div class="city" id="city">
+				<p class="policy_title policy_title_first">Укажите необходимый город</p>
+				<div class="city_wrap">
+					<ul>
+						<li class="city_item"><a class="city_item_link" href="#">Барнаул</a></li>
+						<li class="city_item"><a class="city_item_link" href="#">Бийск</a></li>
+						<li class="city_item"><a class="city_item_link" href="#">Казань</a></li>
+						<li class="city_item"><a class="city_item_link" href="#">Москва</a></li>
+						<li class="city_item"><a class="city_item_link" href="#">Нижний Новгород</a></li>
+						<li class="city_item"><a class="city_item_link" href="#">Новосибирск</a></li>
+						<li class="city_item"><a class="city_item_link" href="#">Пермь</a></li>
+						<li class="city_item"><a class="city_item_link city_item_link-active" href="#">Санкт-Петербург</a></li>
+						<li class="city_item"><a class="city_item_link" href="#">Тюмень</a></li>
+						<li class="city_item"><a class="city_item_link" href="#">Ярославль</a></li>
+					</ul>
+				</div>
 			</div>
 
 			<div class="policy" id="policy">
@@ -248,10 +488,10 @@
 			</form>
 		</div>
 	
-			<!-- <a href="#" class="discount">
+			<a href="price.html" class="discount">
 				<p class="discount_text">20% скидка при звонке нам до 01 ноября!</p>
 				<button class="discount_btn btn">×</button>
-			</a> -->
+			</a>
 			
 	
 	</footer>
